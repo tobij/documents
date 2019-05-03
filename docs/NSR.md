@@ -27,7 +27,25 @@ f.	Configure each network boundary control (firewall, switch, router, gateway, o
 
 g.	Configure Issuing Systems, Certificate Management Systems, Security Support Systems, and Front-End / Internal-Support Systems by removing or disabling all accounts, applications, services, protocols, and ports that are not used in the CA’s or Delegated Third Party’s operations and allowing only those that are approved by the CA or Delegated Third Party;
 
-h.	Review configurations of Issuing Systems, Certificate Management Systems, Security Support Systems, and Front-End / Internal-Support Systems on at least a weekly basis to determine whether any changes violated the CA’s security policies;
+h.	Configure its CA equipment in accordance with its security policies and standards. Based on a documented assessment, the CA shall identify which configurations of Issuing Systems, Certificate Management Systems, Security Support Systems, and Front-End / Internal-Support Systems are security relevant. Such configurations shall be systematically implemented, policy- and standard violations shall be detected within at most seven (7) days and follow up action instigated in accordance with the CA’s incident response procedures.
+
+	Where applicable, at least the following configurations are considered security relevant:
+
+    i.  user databases
+    
+    ii. any means for administrative access (e.g. SSH, RDP)
+    
+    iii. channels for configuration management (e.g. Puppet)
+    
+    iv. network settings
+    
+    v. host-local firewall
+    
+    vi. host-local IDP/IDS settings
+    
+    vii. package repositories and other sources of system-level updates
+    
+    viii. operating system logging service or its equivalent
 
 i.	Grant administration access to Certificate Systems only to persons acting in Trusted Roles and require their accountability for the Certificate System’s security;
 
