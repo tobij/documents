@@ -66,7 +66,8 @@ h.	Have a policy that requires Trusted Roles to log out of or lock workstations 
 
 i.	Have a procedure to configure workstations with inactivity time-outs that log the user off or lock the workstation after a set time of inactivity without input from the user  (the CA or Delegated Third Party MAY allow a workstation to remain active and unattended if the workstation is otherwise secured and running administrative tasks that would be interrupted by an inactivity time-out or system lock);
 
-j.	Review all system accounts at least every three (3) months and deactivate any accounts that are no longer necessary for operations; 
+j.	Review all system accounts at least every three (3) months or monitor them continuously. Such monitoring shall be performed against a defined List of valid accounts and the List shall be verified monthly.
+	System accounts that are identified to be no longer necessary for operations by review or monitoring shall be deactivated within twenty-four (24) hours;
 
 k.	Lockout account access to Certificate Systems after no more than five (5) failed access attempts, provided that this security measure;
 
